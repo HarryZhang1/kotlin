@@ -11,6 +11,7 @@ fun expectFail(f: () -> Unit): Nothing? {
     throw AssertionError("Expected ArithmeticException to be thrown")
 }
 
+
 fun box(): String {
     val a1 = 0
     val a2 = expectFail { 1 / 0 } ?: 0
