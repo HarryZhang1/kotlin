@@ -11178,6 +11178,11 @@ public class JsCodegenBoxTestGenerated extends AbstractJsCodegenBoxTest {
             runTest("compiler/testData/codegen/box/inlineClasses/kt26103.kt");
         }
 
+        @TestMetadata("kt26103_genericUnderlyingType.kt")
+        public void testKt26103_genericUnderlyingType() throws Exception {
+            runTest("compiler/testData/codegen/box/inlineClasses/kt26103_genericUnderlyingType.kt");
+        }
+
         @TestMetadata("kt26103_original.kt")
         public void testKt26103_original() throws Exception {
             runTest("compiler/testData/codegen/box/inlineClasses/kt26103_original.kt");
